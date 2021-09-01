@@ -1,0 +1,65 @@
+.nav {
+  position: fixed;
+  min-width: 300px;
+  min-height: 100vh; }
+
+.nav-menu {
+  margin: 32px; }
+
+.nav-link {
+  padding: 10px 0px; }
+
+.nav-link:hover {
+  color: #198754; }
+
+.logo {
+  margin-bottom: 22px; }
+  .logo a {
+    background: url(../images/logo-ANSWER.svg) no-repeat center;
+    background-size: contain;
+    width: 151px;
+    height: 40px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap; }
+
+.nav-user {
+  margin: 32px; }
+  .nav-user h6 span {
+    font-size: 14px; }
+
+.user-img {
+  background: url(../images/user-img.jpg) no-repeat center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px; }
+
+.main {
+  margin-left: 300px;
+  padding: 32px;
+  min-height: 100vh; }
+
+.main-title {
+  padding: 32px 0; }
+  .main-title h4 {
+    margin-bottom: 0;
+    padding: 8px 0; }
+
+.south {
+  font-size: 18px; }
+
+.table-tool {
+  padding: 0.5rem 0 !important; }
+  .table-tool button {
+    margin-left: 20px; }
+
+.page-link:hover {
+  background-color: #198754;
+  color: #fff !important; }
+
+.main-content {
+  margin-bottom: 60px; }
+
+/*# sourceMappingURL=all.css.map */
