@@ -1,0 +1,227 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<main class="main">
+
+  <div class="main-title d-flex justify-content-between">
+    <div class="d-flex">
+      <h4 class="me-5">Admin</h4>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn bg-transparent" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="material-icons align-bottom me-2 text-success">
+          add
+        </span>
+        Add New Admin
+      </button>
+    </div>
+    <div class="d-flex align-items-center">
+      <button class="material-icons border-0 bg-transparent" type="button">
+        search
+      </button>
+      <button class="material-icons border-0 bg-transparent ms-4" type="button">
+        notifications_active
+      </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-content">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">
+            ID
+            <span class="material-icons south align-text-top text-success">
+              south
+            </span>
+          </th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Verified</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="align-middle">
+          <th scope="row">#1</th>
+          <td>Emir Wicks</td>
+          <td>emir.wicks@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#2</th>
+          <td>Zaina Goldsmith</td>
+          <td>zaina.goldsmith@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#3</th>
+          <td>Mahima Lopez</td>
+          <td>mahima.lopez@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#4</th>
+          <td>Pharrell Murray</td>
+          <td>pharrell.murray@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#5</th>
+          <td>Annika Mcbride</td>
+          <td>annika.mcbride@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#6</th>
+          <td>Fatimah Clark</td>
+          <td>fatimah.clark@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#7</th>
+          <td>Klaudia Rhodes</td>
+          <td>klaudia.rhodes@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#8</th>
+          <td>Tillie Lucero</td>
+          <td>tillie.lucero@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#9</th>
+          <td>Sabrina Stephenson</td>
+          <td>sabrina.stephenson@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+        <tr class="align-middle">
+          <th scope="row">#10</th>
+          <td>Annie Smith</td>
+          <td>annie.smith@mail.com</td>
+          <td>Yes</td>
+          <td class="table-tool text-end">
+            <button class="material-icons border-0 bg-transparent" type="button">
+              visibility
+            </button>
+            <button class="material-icons border-0 bg-transparent" type="button">
+              mode_edit_outline
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="main-pagination">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li class="page-item">
+          <a class="page-link text-success" href="#" aria-label="Previous">
+            <span aria-hidden="true"><</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link text-success" href="#">1</a></li>
+        <li class="page-item"><a class="page-link text-success" href="#">2</a></li>
+        <li class="page-item"><a class="page-link text-success" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link text-success" href="#" aria-label="Next">
+            <span aria-hidden="true">></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</main>
